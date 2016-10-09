@@ -15,7 +15,7 @@ The first line contains two space separated integers which indicate the current 
 ####Output Format 
 Output is the action that is taken by the bot in the current step. It can either be any of the movements in 4 directions or the action of cleaning the cell in which it is currently located. Hence the output formats are `LEFT`, `RIGHT`, `UP`, `DOWN` or `CLEAN`.
 
-_Sample Input_
+*Sample Input*
 
     0 0
     b-ooo
@@ -24,12 +24,12 @@ _Sample Input_
     ooooo
     ooooo
   
-_Sample Output_
+*Sample Output*
 
     RIGHT
   
-_Task_
-Complete the function next_move that takes in 3 parameters: `posr` and `posc` denote the co-ordinates of the bot’s current position, and board denotes the board state, and print the bot’s next move.
+*Task*
+Complete the function `next_move` that takes in 3 parameters: `posr` and `posc` denote the co-ordinates of the bot’s current position, and board denotes the board state, and print the bot’s next move.
 
 _Scoring_
 The goal is to clean all the dirty cells in as few moves as possible. Your score is (200 - #bot moves)/25. All bots in this challenge will be given the same input. CLEAN is also considered a move.
