@@ -29,7 +29,9 @@ Output is the action that is taken by the bot in the current step. It can either
     RIGHT
   
 *Task*
+
 Complete the function `next_move` that takes in 3 parameters: `posr` and `posc` denote the co-ordinates of the bot’s current position, and board denotes the board state, and print the bot’s next move.
 
-_Scoring_
+*Scoring*
+
 The goal is to clean all the dirty cells in as few moves as possible. Your score is (200 - #bot moves)/25. All bots in this challenge will be given the same input. CLEAN is also considered a move.
